@@ -1,15 +1,7 @@
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
-
-#content {
-    height: 100%;
-    width: 100%;
-}
-
 
 nav {
     align-items: center;
@@ -31,16 +23,15 @@ nav {
 
 #main {
     display: flex;
-    height: 100%;
-    width: 100%;
 }
 
 #main div {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     padding: 1rem;
+    width: 100%;
 }
 
 #main div h1 {
@@ -70,4 +61,10 @@ p {
 
 #contact-container {
     background-color: antiquewhite;
+}
+
+@media screen and (max-width: 900px) {
+    #main {
+        height: 100vh;
+    }
 }
