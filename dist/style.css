@@ -1,9 +1,73 @@
-.active {
-    background-color: blue;
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-nav {
-    display: flex;
-    height: 1rem;
+#content {
+    height: 100%;
     width: 100%;
+}
+
+
+nav {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#main div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+}
+
+#main div h1 {
+    align-self: start;
+}
+
+img {
+    width: 60%;
+}
+
+p {
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+.active {
+    background-color: darkgray;
+}
+
+#home-container {
+    background-color: thistle;
+}
+
+#menu-container {
+    background-color: cadetblue;
+}
+
+#contact-container {
+    background-color: antiquewhite;
 }
