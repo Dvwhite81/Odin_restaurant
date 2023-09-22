@@ -1,1 +1,3 @@
-console.log('testing testing')
+import pageSetup from "./page-setup";
+
+pageSetup();
