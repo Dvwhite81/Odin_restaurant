@@ -1,3 +1,3 @@
-import pageSetup from "./page-setup";
+import { pageSetup } from "./page-setup";
 
 pageSetup();
